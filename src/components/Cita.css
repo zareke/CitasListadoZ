@@ -1,32 +1,38 @@
 .cita {
-    background: #f1f1f1;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .cita p {
-    margin: 10px 0;
-    color: #555;
-  }
-  
-  .cita span {
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .buttoneliminar {
-    background-color: #d9534f;
-    border: none;
-    border-radius: 4px;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  .buttoneliminar:hover {
-    background-color: #c9302c;
-  }
-  
+  background: #fff;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.cita:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cita p {
+  margin: 0 0 0.5rem 0;
+  color: #495057;
+}
+
+.cita span {
+  font-weight: normal;
+  color: #6c757d;
+}
+
+.button.eliminar {
+  background-color: #dc3545;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.button.eliminar:hover {
+  background-color: #c82333;
+}

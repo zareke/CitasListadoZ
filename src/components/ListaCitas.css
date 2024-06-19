@@ -1,0 +1,11 @@
+.listacitas {
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
